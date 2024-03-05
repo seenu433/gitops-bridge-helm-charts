@@ -22,6 +22,17 @@ entries:
     urls:
     - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/aws-fargate-fluentbit-2.0.1/aws-fargate-fluentbit-2.0.1.tgz
     version: 2.0.1
+  crossplane-argo-cd-provider:
+  - apiVersion: v2
+    appVersion: v0.2.0
+    created: "2024-03-05T23:28:16.173182033Z"
+    description: A Helm chart for the ArgoCD Provider for Crossplane
+    digest: 14d5ad140474f9d6cd44480855a6855611cc82afaf1028e42182e45e479f0de1
+    name: crossplane-argo-cd-provider
+    type: application
+    urls:
+    - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/crossplane-argo-cd-provider-1.0.0/crossplane-argo-cd-provider-1.0.0.tgz
+    version: 1.0.0
   crossplane-aws:
   - apiVersion: v2
     appVersion: v0.48.0
@@ -87,4 +98,4 @@ entries:
     urls:
     - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/team-1.0.1/team-1.0.1.tgz
     version: 1.0.1
-generated: "2024-03-05T22:34:47.101122478Z"
+generated: "2024-03-05T23:28:16.620808016Z"
