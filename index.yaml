@@ -11,6 +11,16 @@ entries:
     urls:
     - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/aws-ebs-csi-classes-2.0.1/aws-ebs-csi-classes-2.0.1.tgz
     version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-07-11T18:55:06.91043608Z"
+    description: A Helm chart for AWS EBS CSI Classes
+    digest: a8617b8a2ae5e3e983601e69425e7b2b1fc025e7b6fd66041b8dd276db55a80d
+    name: aws-ebs-csi-classes
+    type: application
+    urls:
+    - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/aws-ebs-csi-classes-1.0.0/aws-ebs-csi-classes-1.0.0.tgz
+    version: 1.0.0
   aws-fargate-fluentbit:
   - apiVersion: v2
     appVersion: 1.5.0
@@ -22,6 +32,16 @@ entries:
     urls:
     - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/aws-fargate-fluentbit-2.0.1/aws-fargate-fluentbit-2.0.1.tgz
     version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-07-11T18:55:07.070448611Z"
+    description: A Helm chart AWS Fargate FluentBit
+    digest: 67590c29c65fdd153768a7f73cb7ecce635002e5a0d02bbc378860450e9311a0
+    name: aws-fargate-fluentbit
+    type: application
+    urls:
+    - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/aws-fargate-fluentbit-1.0.0/aws-fargate-fluentbit-1.0.0.tgz
+    version: 1.0.0
   crossplane-argo-cd-provider:
   - apiVersion: v2
     appVersion: v0.2.0
@@ -35,6 +55,16 @@ entries:
     version: 1.0.0
   crossplane-aws:
   - apiVersion: v2
+    appVersion: v0.47.0
+    created: "2024-07-11T18:55:07.221909432Z"
+    description: A Helm chart for Kubernetes
+    digest: 248977600284075420c3a7739212c71c3b1b1c2620fdfd55abd05684cca03d9b
+    name: crossplane-aws
+    type: application
+    urls:
+    - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/crossplane-aws-2.2.0/crossplane-aws-2.2.0.tgz
+    version: 2.2.0
+  - apiVersion: v2
     appVersion: v0.48.0
     created: "2024-03-05T22:34:46.694664328Z"
     description: A Helm chart for Kubernetes
@@ -45,6 +75,16 @@ entries:
     - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/crossplane-aws-2.1.1/crossplane-aws-2.1.1.tgz
     version: 2.1.1
   crossplane-aws-upbound:
+  - apiVersion: v2
+    appVersion: v1.1.0
+    created: "2024-07-11T18:55:07.366420484Z"
+    description: A Helm chart for Kubernetes
+    digest: f9b7b67059495ba017fe3ab97ac335327b088a6f5d0d94796e9138155363fcf8
+    name: crossplane-aws-upbound
+    type: application
+    urls:
+    - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/crossplane-aws-upbound-3.0.0/crossplane-aws-upbound-3.0.0.tgz
+    version: 3.0.0
   - apiVersion: v2
     appVersion: v0.49.1
     created: "2024-03-05T22:34:46.768086858Z"
@@ -66,7 +106,27 @@ entries:
     urls:
     - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/crossplane-azure-upbound-2.0.2/crossplane-azure-upbound-2.0.2.tgz
     version: 2.0.2
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2024-07-11T18:55:07.526694821Z"
+    description: A Helm chart for the Azure Provider for Crossplane
+    digest: e409f6b822b22d6ecf0fa2fb0ce16fbdd00180861b984e6840d246082bea25d9
+    name: crossplane-azure-upbound
+    type: application
+    urls:
+    - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/crossplane-azure-upbound-1.0.0/crossplane-azure-upbound-1.0.0.tgz
+    version: 1.0.0
   crossplane-helm:
+  - apiVersion: v2
+    appVersion: v0.17.0
+    created: "2024-07-11T18:55:07.688921811Z"
+    description: A Helm chart for Kubernetes
+    digest: ce103aa05491d43e42ff23c44d5f934595899cde8cf0e9dfbf811b5862dda253
+    name: crossplane-helm
+    type: application
+    urls:
+    - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/crossplane-helm-1.1.0/crossplane-helm-1.1.0.tgz
+    version: 1.1.0
   - apiVersion: v2
     appVersion: v0.18.0
     created: "2024-03-05T22:34:46.926814145Z"
@@ -78,6 +138,16 @@ entries:
     - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/crossplane-helm-1.0.2/crossplane-helm-1.0.2.tgz
     version: 1.0.2
   crossplane-kubernetes:
+  - apiVersion: v2
+    appVersion: v0.12.1
+    created: "2024-07-11T18:55:07.839168507Z"
+    description: A Helm chart for Kubernetes
+    digest: 9de49c5cbedb546a21bbc8c04976d67b20d2de86dd53ca27a9aba77237e81c22
+    name: crossplane-kubernetes
+    type: application
+    urls:
+    - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/crossplane-kubernetes-1.2.0/crossplane-kubernetes-1.2.0.tgz
+    version: 1.2.0
   - apiVersion: v2
     appVersion: v0.19.0
     created: "2024-03-05T22:34:47.022367161Z"
@@ -98,4 +168,13 @@ entries:
     urls:
     - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/team-1.0.1/team-1.0.1.tgz
     version: 1.0.1
-generated: "2024-03-05T23:28:16.620808016Z"
+  - apiVersion: v2
+    created: "2024-07-11T18:55:07.985509724Z"
+    description: A Helm Chart to bootstrap a Namespace in a Multi-Tenancy setup
+    digest: dd79b1bd7d043a85a05b1e78c3a45d785355c345c35c89c328727749eba462b1
+    name: team
+    type: application
+    urls:
+    - https://github.com/seenu433/gitops-bridge-helm-charts/releases/download/team-1.0.0/team-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-07-11T18:55:07.985538668Z"
